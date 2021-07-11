@@ -73,12 +73,6 @@ process menu:
          >```
 9. Create as many of your classes as possible to be "testable" classes. Limit console
 input and output to as few classes as possible.
-10. Optional - Sales Report
-    - Provide a "Hidden" menu option on the main menu ("4") that writes to a sales
-    report that shows the total sales since the machine was started. The name of the
-    file must include the date and time so each sales report is uniquely named.
-    - An example of the output format is provided below.
-11. Provide unit tests demonstrating that your code works correctly.
 ___
 ### Vending Machine Data File
 The input file that stocks the vending machine products is a pipe `|` delimited file. Each line is a separate product in the file and follows the below format:
@@ -102,28 +96,4 @@ C1|Cola|1.25|Drink
 An input file has been provided with your repository: `vendingmachine.csv`.
 
  ---
-### Sales Report
-The output sales report file is also pipe-delimited for consistency. Each line is a separate product with the number of sales for the applicable product. At the end of the report is a blank line followed by the **TOTAL SALES** dollar amount indicating the gross sales from the vending machine.
 
-**Example Output**
-
->```
->Potato Crisps|10
->Stackers|3
->Grain Waves|0
->Cloud Popcorn|50
->Moonpie|23
->Cowtales|2
->Wonka Bar|1
->Crunchie|3
->Skor|4
->Cola|8
->Dr. Salt|9
->Mountain Melter|12
->Heavy|11
->Diet Cola|6
->U-Chews|4
->Little League Chew|2
->Chiclets|0
->Triplemint|0
->```
